@@ -1,0 +1,65 @@
+*{
+    font-family: montserrat;
+}
+
+main{
+    text-align: center;
+    background: rgb(41, 44, 53);
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+h1{
+    color: #fff;
+    padding: 10px;
+}
+
+span{
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+button{
+    background: rgb(0, 102, 255);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(167, 167, 167);
+}
+
+div{
+    border: 1px solid #3f89ff;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    top: -70px;
+    left: 469px;
+    opacity: 0;
+    transition: 700ms;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+    color: rgb(184, 184, 184);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*------JS------*/
+
+.name-active{
+    top: 145px;
+    opacity: 1;
+}
